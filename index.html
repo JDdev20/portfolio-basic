@@ -1,247 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio-Basic</title>
 
-
-
-
-
     <!-- STYLES -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- AWESOME ICON -->
-    <script src="https://kit.fontawesome.com/4a06fd0257.js" crossorigin="anonymous"></script>
-
-</head>
-<body class="dark">
+    <script
+      src="https://kit.fontawesome.com/4a06fd0257.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="dark">
     <!-- this is Header -->
     <header>
-        <!--  DARK MODE and LIGHT MODE-->
-        <div class="switches">
-            <div id="toggle-theme" class="toggle-theme">
-              <img
-                id="toggle-icon"
-                src="assets/icons/dark_mode.svg"
-                alt="icon theme"
-                class="toggle-theme__icon"
-              />
-              <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
-            </div>
-          </div>
+      <!--  DARK MODE and LIGHT MODE-->
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img
+            id="toggle-icon"
+            src="assets/icons/dark_mode.svg"
+            alt="icon theme"
+            class="toggle-theme__icon"
+          />
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
 
-          <!-- Title Header -->
-          <div id="title" class="title">
-            <div class="title-item">
-              <h1 class="text-title">Portfolio-Basic</h1>
-            </div>
-          </div>
+      <!-- Title Header -->
+      <div id="title" class="title">
+        <div class="title-item">
+          <h1 class="text-title">Portfolio-Basic</h1>
+        </div>
+      </div>
 
-
-          <!-- COLORS ITEMS -->
-          <div id="toggle-colors" class="colors">
-            <div
-              class="colors__item colors__item--blue"
-            ></div>
-            <div
-              class="colors__item colors__item--green"
-            ></div>
-          
+      <!-- COLORS ITEMS -->
+      <div id="toggle-colors" class="colors">
+        <div class="colors__item colors__item--blue"></div>
+        <div class="colors__item colors__item--green"></div>
+      </div>
     </header>
 
     <!-- this is BODY -->
-   <main class="main">
-    <!-- SECTION left-->
-    <section class="column column--left">
+    <main class="main">
+      <!-- SECTION left-->
+      <section class="column column--left">
+        <!-- 
+            CARD Profile
+           -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="assets/images/profile.jpg" alt="Profile image" />
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Jesus David Gil Graterol</h2>
+            <p class="card__subtitle">Junior Full Stack</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:jesus2002325@gmail.com">jesus2002325@gmail.com</a>
+            </div>
+            <div class="card__link">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+584242547883">+58-4242547883</a>
+            </div>
+          </div>
+          <p class="card__text">
+            20 years old, passionate about technology, I dedicate myself to
+            studying technological fields such as electronics, systems,
+            programming. I am currently in the task of developing my skills in
+            web programming.
+          </p>
+        </article>
 
+        <!-- Articulo de las experiencia -->
+        <article class="card card--experience">
+          <h2 class="card__title">Experiences</h2>
+          <div class="experience">
+            <img
+              src="assets/images/logo.png"
+              alt="Logo"
+              class="experience__image"
+            />
+            <div class="experience__info">
+              <p class="experience__time">Feb 2017 - Current</p>
+              <h3 class="experience__job">Front End Developer</h3>
+              <p class="experiencie__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                assumenda accusantium odio! Velit fuga, quis eius sapiente earum
+                sed nihil unde recusandae sequi in deleniti autem neque
+                blanditiis a quia.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Articulo de los Hobbies -->
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/images/hobbie.jpg" alt="Man on a bike" />
+          </div>
+          <h3 class="hobbie__title">Biking</h3>
+          <p class="card__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
+            labore, optio dolore porro suscipit natus sit accusamus nesciunt
+            dolor! Vel repudiandae voluptates numquam labore in eveniet
+            laboriosam sunt aspernatur officiis!
+          </p>
+        </article>
+      </section>
 
       <!-- 
-        CARD Profile
-       -->
-      <article class="card card--profile">
-        <div class="card__image-container">
-          <img src="assets/images/profile.jpg" alt="Profile image" />
-        </div>
-        <div class="card__header">
-          <h2 class="card__title no-margin">Jesus David Gil Graterol</h2>
-          <p class="card__subtitle">Junior Full Stack</p>
-        </div>
-        <div class="card__body">
-          <div class="card__link">
-            <i class="fas fa-envelope icon"></i>
-            <a href="mailto:jesus2002325@gmail.com">jesus2002325@gmail.com</a>
-          </div>
-          <div class="card__link">
-            <i class="fa-solid fa-phone"></i>
-            <a href="tel:+584242547883">+58-4242547883</a>
-          </div>
-        </div>
-        <p class="card__text">
-          20 years old, passionate about technology, I dedicate myself to studying technological fields such as electronics, systems, programming.
-          I am currently in the task of developing my skills in web programming.       
-        </p>
-      </article>
-    </section>
-   </main>
-    <!-- Articulo de las experiencia -->
-    <article class="card card--experience">
-      <h2 class="card__title">Experiences</h2>
-      <div class="experience">
-        <img
-          src="assets/images/logo.png"
-          alt="Logo"
-          class="experience__image"
-        />
-        <div class="experience__info">
-          <p class="experience__time">Feb 2017 - Current</p>
-          <h3 class="experience__job">Front End Developer</h3>
-          <p class="experiencie__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-            assumenda accusantium odio! Velit fuga, quis eius sapiente earum
-            sed nihil unde recusandae sequi in deleniti autem neque
-            blanditiis a quia.
-          </p>
-        </div>
-      </div>
-    </article>
-
-    <!-- Articulo de los Hobbies -->
-    <article class="card card--hobbies">
-      <h2 class="card__title">Hobbies</h2>
-      <div class="card__image-container">
-        <img src="assets/images/hobbie.jpg" alt="Man on a bike" />
-      </div>
-      <h3 class="hobbie__title">Biking</h3>
-      <p class="card__text">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
-        labore, optio dolore porro suscipit natus sit accusamus nesciunt
-        dolor! Vel repudiandae voluptates numquam labore in eveniet
-        laboriosam sunt aspernatur officiis!
-      </p>
-    </article>
-  </section>
-
-  <!-- 
     Finaliza la seccion para todos los articulos del lado izquierdo del portfolio
     Comienza la seccion para todos los articulos del lado Derecho del portfolio
    -->
+      <section class="column column--right">
+        <!-- Articulo para las habilidades del usuario (Desarrollo web)-->
+        <article class="card">
+          <h2 class="card__title">Desarrolo web</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+          </div>
+        </article>
 
-  <section class="column column--right">
-    <!-- Articulo para las habilidades del usuario (Desarrollo web)-->
-    <article class="card">
-      <h2 class="card__title">Desarrolo web</h2>
-      <small>Años de experiencia</small>
-      <div class="skills">
-        <div class="skills__header">
-          <span class="skills__start-level">0</span>
-          <span class="skills__start-level">5</span>
-        </div>
-        <div class="skills__item">
-          <p class="skills__tech">HTML</p>
-          <div class="skills__bar skills__bar--80"></div>
-        </div>
-        <div class="skills__item">
-          <p class="skills__tech">CSS</p>
-          <div class="skills__bar skills__bar--90"></div>
-        </div>
-        <div class="skills__item">
-          <p class="skills__tech">JavaScript</p>
-          <div class="skills__bar skills__bar--60"></div>
-        </div>
-      </div>
-    </article>
+        <!-- Articulo para las habilidades del usuario (Software)-->
+        <article class="card">
+          <h2 class="card__title">Software</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Visual</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <!-- Articulo para las habilidades del usuario (Diseño)-->
+          <h2 class="card__title">Design</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+          </div>
+        </article>
 
-    <!-- Articulo para las habilidades del usuario (Software)-->
-    <article class="card">
-      <h2 class="card__title">Software</h2>
-      <div class="skills">
-        <div class="skills__item">
-          <p class="skills__tech">Visual</p>
-          <div class="skills__bar skills__bar--80"></div>
-        </div>
-        <div class="skills__item">
-          <p class="skills__tech">CSS</p>
-          <div class="skills__bar skills__bar--90"></div>
-        </div>
-        <div class="skills__item">
-          <p class="skills__tech">JavaScript</p>
-          <div class="skills__bar skills__bar--60"></div>
-        </div>
-      </div>
-    </article>
-    <article class="card">
-      <!-- Articulo para las habilidades del usuario (Diseño)-->
-      <h2 class="card__title">Design</h2>
-      <div class="skills">
-        <div class="skills__item">
-          <p class="skills__tech">HTML</p>
-          <div class="skills__bar skills__bar--80"></div>
-        </div>
-        <div class="skills__item">
-          <p class="skills__tech">CSS</p>
-          <div class="skills__bar skills__bar--90"></div>
-        </div>
-        <div class="skills__item">
-          <p class="skills__tech">JavaScript</p>
-          <div class="skills__bar skills__bar--60"></div>
-        </div>
-      </div>
-    </article>
-
-    <!-- Articulo de los proyectos del usuario -->
-    <article class="card card--project">
-      <div class="card__image-container">
-        <img
-          src="assets/images/project.jpg"
-          alt="Landing page"
-          class="card__image"
-        />
-      </div>
-      <div class="project">
-        <div class="project__tags">
-          <span class="project__tag">#HTML</span>
-          <span class="project__tag">#CSS</span>
-          <span class="project__tag">JavaScript</span>
-          <span class="project__tag">#Responsive</span>
-        </div>
-        <h2 class="card__title">Landing page</h2>
-        <p class="card__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-          aut repellat, hic consectetur laboriosam a similique repudiandae!
-          Architecto debitis optio asperiores commodi numquam obcaecati
-          dicta aperiam expedita, voluptate ipsum vero.
-        </p>
-        <p class="card__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-          aut repellat, hic consectetur laboriosam a similique repudiandae!
-          Architecto debitis optio asperiores commodi numquam obcaecati
-          dicta aperiam expedita, voluptate ipsum vero.
-        </p>
-        <div class="buttons">
-          <a
-            href="https://mrdavid-g.github.io/portfolio/"
-            class="button button--primary"
-            >Demo</a
-          >
-          <a
-            href="https://github.com/MrDavid-G/portfolio"
-            target="_blank"
-            class="button button--ghost"
-            >Code</a
-          >
-        </div>
-      </div>
-    </article>
-  </section>
+        <!-- Articulo de los proyectos del usuario -->
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/project.jpg"
+              alt="Landing page"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">JavaScript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">Landing page</h2>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              aut repellat, hic consectetur laboriosam a similique repudiandae!
+              Architecto debitis optio asperiores commodi numquam obcaecati
+              dicta aperiam expedita, voluptate ipsum vero.
+            </p>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              aut repellat, hic consectetur laboriosam a similique repudiandae!
+              Architecto debitis optio asperiores commodi numquam obcaecati
+              dicta aperiam expedita, voluptate ipsum vero.
+            </p>
+            <div class="buttons">
+              <a
+                href="https://mrdavid-g.github.io/portfolio/"
+                class="button button--primary"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/MrDavid-G/portfolio"
+                target="_blank"
+                class="button button--ghost"
+                >Code</a
+              >
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
     <!-- SCRIPTS -->
-    
-</body>
+  </body>
 </html>
