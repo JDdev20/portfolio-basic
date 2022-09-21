@@ -49,12 +49,13 @@ a {
   text-decoration: none;
 }
 
+
 /* 
 Title center
  */
 .text-title {
-  font-family: "Merienda", cursive;
-  font-size: 5vh;
+  font-family: sans-serif, cursive;
+  font-size: 4vh;
   background: linear-gradient(#1497be, #1c2aec);
   color: transparent;
   background-clip: text;
@@ -72,6 +73,12 @@ Title center
   }
 }
 
+@media screen and (min-width: 720px) {
+  .text-title{
+    font-size: 8vh;
+  }
+}
+ 
 /* 
 #-------------------------Mode Dark and Light-------------------------#
 */
@@ -109,6 +116,7 @@ Title center
   width: 20px;
   height: 20px;
   border: 1px solid var(--text-color);
+  border-radius: 50%;
   background-color: var(--primary-color);
   cursor: pointer;
 }
@@ -120,6 +128,8 @@ Title center
 .colors__item--green {
   --primary-color: hsl(150, 84%, 56%);
 }
+
+
 
 /*#-------------------------Color to page -------------------------#*/
 .main {
