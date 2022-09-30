@@ -1,8 +1,0 @@
-@import url(styles.css);
-
-body {
-    margin: 0;
-    font-family: sans-serif;
-    background-color: hsl(0, 0%, 15%);
-    color: hsl(0, 0%, 83%);
-  }

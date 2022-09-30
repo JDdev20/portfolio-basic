@@ -55,7 +55,7 @@ Title center
  */
 .text-title {
   font-family: sans-serif, cursive;
-  font-size: 4vh;
+  font-size: 8vh;
   background: linear-gradient(#1497be, #1c2aec);
   color: transparent;
   background-clip: text;
@@ -73,9 +73,9 @@ Title center
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 720px) {
   .text-title{
-    font-size: 8vh;
+    font-size: 3vh;
   }
 }
  
